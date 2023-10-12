@@ -1,0 +1,35 @@
+/* Universe Selector */
+*{
+    color: blue;
+}
+/* Element Selector */
+* h1{
+    color : rgb(8, 177, 90);
+} */
+p{
+    color: cadetblue;
+}
+button{
+    color: brown;
+    background-color: white;
+}
+body{
+    /* background-color: rgb(188, 182, 182); */
+    background-color: rgb(0, 0, 0);
+    /* background-color: #ffff00; */
+}
+/* Id Selector */
+#first{
+    color: burlywood;
+}
+#second{
+    color: aqua;
+}
+
+#third{
+    color: chocolate;
+}
+/* Class Selector  */
+.myClass{
+    color: blueviolet;
+}
