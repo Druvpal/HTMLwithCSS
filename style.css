@@ -1,60 +1,48 @@
-#navbar{
-    height: 60px;
-    color: white;
-    background-color: #0f1111;
-    border-style:outset;
-    border-width: 8px;
-    border-color: #f08804;
-}
-#logo{
-    font-size: 25px;
-    color: ;
-}
-button{
-    background-color: #f08804;
-}
-a{
-    margin-right: 200px;
-    text-decoration: none;
-}
-h1{
-    text-align: center;
-    font-size: 50px;
-}
-.contactBox{
-    width: 100px;
-    height: 100px;
-    border: #f08804 solid 5px;
-    margin-bottom: 5px;
-    margin: 5px;
+div{
     display: inline-block;
 }
 
-footer{
-    background-color: aqua;
-    text-align: center;
-}
-#content{
-    height: 600px;
-}
 #box1{
     width: 100px;
     height: 100px;
-    background-color: green;
-    font-size: 10px;
+    background-color: pink;
+    position: static;
+    /* To upper frem box  */
+    z-index: 1;
+    
 }
+
 #box2{
-    width: 50px;
-    height: 30%;
-    margin-left: 10%;
-    background-color: yellow;
-    /* em time of parent's div */
-    font-size: 2em;
-    /* it's em times of itself font size */
-    width: 5em;
-
-
+    width: 100px;
+    height: 100px;
+    background-color: rgb(113, 224, 73);
+    position: relative;
+    
 }
-div{
-    display: inline-block;
+#box3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(61, 200, 218);
+    position: fixed;
+    left: 100px;
+    z-index: 1;
+    
+}
+#box4{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(108, 31, 175);
+    position: sticky;
+    /* To lower frem box  */
+    z-index: 0;
+    
+    
+}
+#box5{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(173, 21, 130);
+    position: static;
+    /* To upper frem box  */
+    z-index: 1;
 }
